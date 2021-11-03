@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Reto 4 - Desarrollo USA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Reto 4</h1>
+  <br>
+  <h3>Porfavor selecciona la tabla que vas a leer/insertar</h3>
+  <select name="selectTable" id="selectTable">
+    <option value="Category" selected>Category</option>
+    <option value="Client" >Client</option>
+    <option value="Message">Message</option>
+    <option value="Motorbike">Motorbike</option>
+    <option value="Reservation">Reservation</option>
+  </select>
+
+  <input type="number" id="id" placeholder="id" class="datos visible">
+  <input type="text" id="name" placeholder="name" class="datos visible">
+  <input type="text" id="description" placeholder="description" class="datos visible">
+  <input type="text" id="email" placeholder="email" class="datos ">
+  <input type="password" id="password" placeholder="password" class="datos ">
+  <input type="number" id="age" placeholder="age" class="datos ">
+  <input type="text" id="message" placeholder="message" class="datos ">
+  <input type="text" id="brand" placeholder="brand" class="datos ">
+  <input type="number" id="year" placeholder="year" class="datos ">
+  <input type="date" id="startDate" placeholder="start date" class="datos ">
+  <input type="date" id="devolutionDate" placeholder="devolution date" class="datos ">
+  <input type="text" id="status" placeholder="status" class="datos ">
+  <br>
+  
+  <button onclick="obtener()">VER</button>
+  <button onclick="insertar()">INSERTAR</button>
+  <button onclick="actualizar()">ACTUALIZAR</button>
+  <button onclick="eliminar()">ELIMINAR</button>
+  <pre id="output">
+
+  </pre>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

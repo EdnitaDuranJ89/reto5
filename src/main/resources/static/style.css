@@ -1,0 +1,6 @@
+.datos {
+  display: none;
+}
+.datos.visible {
+  display: flex;
+}
